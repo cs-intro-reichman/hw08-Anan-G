@@ -20,8 +20,12 @@ class RuniFi {
         myList.add(track3);
         myList.add(track4);
 
+
+
         // Displays the list
         display("My list", myList);
+
+
 
         // Displays the total duration
         System.out.println("\nTotal time duration of my list (in seconds):" + myList.totalDuration());
@@ -29,6 +33,7 @@ class RuniFi {
         // Inserts a track to some location
         myList.add(1, track5);
         display("After adding Yesterday at location 1", myList);
+
 
         // Tests the ability to find the locations of track titles
         System.out.println("\nIndex of Creep: " + myList.indexOf("Creep"));
@@ -40,6 +45,7 @@ class RuniFi {
 
         myList.removeFirst();
         display("After removing the first track", myList);
+
 
         myList.removeLast();
         display("After removing the last track", myList);

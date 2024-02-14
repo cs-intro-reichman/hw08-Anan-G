@@ -31,8 +31,6 @@ public class CombinedOperationsTester {
         System.out.println("Final Playlist Size: " + playList.getSize());
         System.out.println("Final Total Duration: " + playList.totalDuration() + " seconds");
     
-
-
         // Adding tracks at specific indexes
         playList.add(0, new Track("Yesterday", "The Beatles", 125)); // Add at the beginning
         System.out.println("Track 'Yesterday' added at index 0.");
