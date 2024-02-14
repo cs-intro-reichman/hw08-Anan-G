@@ -117,11 +117,8 @@ class PlayList {
         if (i == this.size){
 
             this.add(track);
+            return true;
 
-            if (this.add(track) == true){
-
-                return true;
-            }
         
         } else if(i <= this.maxSize && i >= 0 && this.size != this.maxSize){
 
