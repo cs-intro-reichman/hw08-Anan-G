@@ -123,7 +123,7 @@ class PlayList {
                 return true;
             }
         
-        } else if(i <= this.maxSize && i > 0 && this.size != this.maxSize){
+        } else if(i <= this.maxSize && i >= 0 && this.size != this.maxSize){
 
             for (int j = i; j < size; j++){
 
